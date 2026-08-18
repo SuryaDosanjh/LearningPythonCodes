@@ -20,8 +20,8 @@ x = {'a','b','c','d'}
 y = {'x','y','z','c','d'}
 z = x.intersection(y) # Same as x & y
 z.add('Hack') #Result = {'Hack','c','d'}
-z.update(set('x','y']))
-z.remove('b')
+z.update(set(['x','y']))
+z.remove('x')
 
 # Set comprehensions
 z = {x**2 for x in [1,2,3,4]}
